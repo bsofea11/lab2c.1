@@ -11,4 +11,5 @@ module lab2c (cin, a, b, d2, d1, d0);
     seven_segment_decoder seg0 (.in(units), .seg(d0));
     seven_segment_decoder seg1 (.in(tens), .seg(d1));
     seven_segment_decoder seg2 (.in(hundreds), .seg(d2));
+
 endmodule
