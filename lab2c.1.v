@@ -1,4 +1,4 @@
-module lab2c (cin, a, b, d2, d1, d0);
+module lab2c.1 (cin, a, b, d2, d1, d0);
     input cin;
     input [7:0] a, b;
     output [6:0] d2, d1, d0;
@@ -13,3 +13,4 @@ module lab2c (cin, a, b, d2, d1, d0);
     seven_segment_decoder seg2 (.in(hundreds), .seg(d2));
 
 endmodule
+
